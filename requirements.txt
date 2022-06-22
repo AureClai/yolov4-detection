@@ -1,6 +1,4 @@
 certifi==2021.10.8
 numpy==1.22.4
 opencv-python==4.6.0.66
-pafy @ git+https://github.com/Cupcakus/pafy@45f0deb067bf7c420cdf83a0529fd5274c12de18
 wincertstore==0.2
-youtube-dl==2021.12.17
