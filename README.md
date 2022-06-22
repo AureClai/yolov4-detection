@@ -41,3 +41,5 @@ Github original de `main.py` : https://github.com/Camebush/real-time-yolov4-obje
 
 Vidéo téléchargée ici :
 https://www.youtube.com/watch?v=KBsqQez-O4w
+
+Site officiel YOLO: https://pjreddie.com/darknet/yolo/
