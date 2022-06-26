@@ -30,16 +30,11 @@ conda create -n myenv python pip --no-default-packages
 pip install -r requirements.txt
 ```
 
-3. Télécharger les fichiers de Yolov4
+3. Télécharger les fichiers de Yolov4 à la racine du dossier
 
 - **cfg** : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.cfg
 - **weights** : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
 - **Coco names** : https://github.com/pjreddie/darknet/blob/master/data/coco.names
-
-3. Lancer le code
-```
-python main.py
-```
 
 ## Utilisation
 
