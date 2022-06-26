@@ -94,8 +94,8 @@ options:
 
 - Site officiel YOLO: https://pjreddie.com/darknet/yolo/
 
-- Source de la [barre de chargement](utils/progress_bar.py)
+- Source de la [barre de chargement](utils/progress_bar.py) : https://stackoverflow.com/questions/48706237/how-to-choose-the-threshold-of-the-output-of-a-dnn-in-tensorflow
 
 ## Déclarer un bug
 
-`:bug:` [Faire une déclaration de bug ]()
+[Faire une déclaration de bug ](https://gitlab.cerema.fr/Aurelien.clairais/yolov4-detection/-/issues/new)
