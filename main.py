@@ -4,6 +4,7 @@ Fichier téléchargé ici : https://github.com/Camebush/real-time-yolov4-object-
 
 import cv2
 import numpy as np
+import os
 
 # load our YOLO object detector trained on COCO dataset (80 classes)
 net = cv2.dnn.readNetFromDarknet('yolov4.cfg', 'yolov4.weights')
@@ -17,7 +18,7 @@ with open('coco.names', 'r') as f:
     LABELS = f.read().splitlines()
 
 # initialize the video stream, pointer to output video file
-cap = cv2.VideoCapture("video_test.mp4")
+cap = cv2.VideoCapture(os.path.join("in_videos","video_test_720p.mp4"))
 
 while True:
     _,image=cap.read()
@@ -85,3 +86,4 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
